@@ -1,0 +1,119 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* global */
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 35px;
+}
+
+h4{
+    font-size: 30px;
+}
+
+img{
+    width: 100%;
+}
+
+/* header */
+.header-index{
+    background-image: url(img/banner.jpg);
+    color: white;
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.header-index a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.header-index h1{
+    font-weight: 400;
+}
+
+.header-index h1 span{
+    font-weight: 700;
+}
+
+.btn{
+    display: block;
+    text-align: center;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    width: 200px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+/* footer*/
+footer{
+    background-color: black;
+    text-align: center;
+}
+
+footer p{
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+}
+
+.container{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.about-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60vh;
+}
+
+.about-main-img{
+    flex: 0 0 50%;
+    padding: 30px;
+}
+
+.about-main-text{
+    padding: 50px;
+}
+
+.contact-section{
+    background-image: url(img/contact.jpg);
+    color: white;
+    text-align: center;
+    background-position: center center;
+    background-color: black;
+    background-size: cover;
+    height: 50vh;
+}
+
+.address-section{
+    background-color: black;
+}
